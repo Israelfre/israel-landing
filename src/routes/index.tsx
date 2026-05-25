@@ -5,7 +5,6 @@ import {
   ArrowRight,
   Check,
   MessageCircle,
-  Mail,
   Shield,
   Zap,
   Target,
@@ -524,19 +523,13 @@ function CtaFinal() {
           Resposta em até 24h úteis. Sem compromisso, sem enrolação.
         </p>
         <div className="flex flex-wrap gap-3 justify-center">
-          <a
+          
             href={WHATSAPP_URL}
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 bg-[#25D366] text-white px-8 py-4 rounded-md font-display font-bold shadow-glow hover:-translate-y-0.5 transition-transform"
           >
             <MessageCircle className="w-5 h-5" /> Falar no WhatsApp
-          </a>
-          <a
-            href="mailto:contato@israelfreitas.dev"
-            className="inline-flex items-center gap-2 border border-border text-muted-foreground px-8 py-4 rounded-md font-medium hover:text-foreground hover:border-border-strong transition-colors"
-          >
-            <Mail className="w-5 h-5" /> Enviar e-mail
           </a>
         </div>
         <p className="mt-10 text-xs text-muted-foreground flex items-center gap-2 justify-center">
