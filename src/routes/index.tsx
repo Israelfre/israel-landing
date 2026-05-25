@@ -26,7 +26,7 @@ export const Route = createFileRoute("/")({
 });
 
 const WHATSAPP_URL =
-  "https://wa.me/5588999999999?text=Olá%20Israel!%20Tenho%20interesse%20na%20landing%20page%20de%20R$%20150.";
+  "https://wa.me/5585999169777?text=Olá%20Israel!%20Tenho%20interesse%20na%20landing%20page%20de%20R$%20150.";
 
 function Landing() {
   useEffect(() => {
